@@ -1,0 +1,79 @@
+.mainDiv {
+  background-color: black;
+  border: none;
+  height: 455px;
+  margin: 9px;
+  width: 190px;
+}
+.pliusiukas {
+  color: gray;
+  font-weight: 200;
+  margin: 0 auto;
+  text-shadow: 0 0 15px white;
+}
+.pliusiukas:hover {
+  color: white;
+  text-shadow: 0 0 15px white;
+}
+.apatinisDivas {
+  border-top: 1px solid rgb(40, 40, 40);
+  background-color: rgb(29, 29, 29);
+  width: 190px;
+  height: 200px;
+}
+.watchlistBtn{
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(50, 50, 50);
+  color: rgb(98, 165, 252);
+  cursor: pointer;
+  font-weight: 300;
+  height: 30px;
+  margin: 5px 5px;
+  width: 180px;
+}
+.watchlistBtn:hover{
+  background-color: rgb(60, 60, 60);
+}
+.trailerBtn{
+  border: none;
+    border-radius: 4px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    height: 30px;
+    margin: 5px 5px;
+    width: 180px;
+}
+.title{
+  color: white;
+}
+.titleHeight{
+  height: 50px;
+}
+.imagePlace{
+  color: white;
+  
+}
+/* horizontal card */
+
+.mainDivHorizontal{
+  background-color: white;
+  display: flex;
+  height: 130px;
+  margin: 20px;
+  width: 355px;
+}
+.imagePlace{
+  background-size: 250px 130px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  height: 130px;
+  width: 150px;
+}
+.information{
+  background-color: rgba(0, 0, 0, 0.954);
+  width: 250px;
+  height: 130px;
+}

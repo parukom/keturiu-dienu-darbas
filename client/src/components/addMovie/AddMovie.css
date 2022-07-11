@@ -1,0 +1,65 @@
+label{
+    color: white;
+    margin: 10px;
+}
+.size100{
+    height: 100%;
+}
+.formosInputas{
+    border: none;
+    height: 33px;
+    margin: 10px;
+    width: 300px;
+}
+.formMainDiv{
+    background-color: rgb(29, 29, 29);
+    height: 500px;
+    margin: 200px auto;
+    width: 800px;
+}
+.addMovieLeft{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+form{
+    display: flex;
+    position: relative;
+}
+.addButtonButton{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.addButtonSpan{
+    color: rgb(51, 195, 195);
+    font-weight: 300;
+    letter-spacing: -2px;
+}
+.addMovieSpan{
+    color: white;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+.addMovieSubmit{
+    background-color: rgba(0, 128, 0, 0.369);
+    bottom: 10px;
+    border: none;
+    color: rgb(0, 200, 0);
+    font-size: 2rem;
+    height: 140px;
+    position: absolute;
+    right: 10px;
+    width: 140px;
+}
+.addMovieSubmit:hover{
+    transform: scale(1.1);
+}
+.addMovieSubmit:disabled {
+    font-size: 2rem;
+    background-color: gray;
+    color: rgb(173, 173, 173);
+}
+.addMovieSubmit:disabled:hover {
+    transform: scale(0.9);
+}

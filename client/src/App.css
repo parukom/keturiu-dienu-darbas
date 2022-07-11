@@ -1,0 +1,9 @@
+
+.cardsComponent{
+    position: relative;
+    background-color: black;
+    display: flex;
+    max-width: 1240px;
+    overflow: hidden;
+    margin: 0 auto;
+}

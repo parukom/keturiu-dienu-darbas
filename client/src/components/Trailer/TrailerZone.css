@@ -1,0 +1,42 @@
+/* left div */
+.trailerMainSection{
+    margin: 0 auto;
+    width: 1240px;
+    display: flex;
+}
+.trailerLeftDiv{
+    display: flex;
+    flex-direction: column;
+    width: 840px;
+}
+.trailerUzdarytiKnopke{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+    width: 100px;
+}
+.trailerDivVirsus{
+    align-items: center;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+}
+.trailerDalintisKnopke{
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.bi-share-fill{
+    font-size: 1.3rem;
+}
+/* right div */
+.trailerRightDiv{
+    background-color: rgb(29, 29, 29);
+    width: 400px;
+    height: 500px;
+}
+.trailersRightTitle{
+    margin-left: 20px;
+}
